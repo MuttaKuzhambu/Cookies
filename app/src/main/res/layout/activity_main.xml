@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#673AB7"
+    tools:context="com.example.android.cookies.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:src="@drawable/before_cookie"
+        android:id="@+id/cookie"
+        android:scaleType="centerCrop"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+  android:paddingTop="21dp"
+    android:textSize="21sp"
+   android:textAlignment="center"
+    android:textColor="#ffff"
+    android:id="@+id/before"
+    android:text="I Am So Hungry"
+   />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eat Cookies"
+        android:onClick="eat"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:layout_marginLeft="28dp"
+        android:onClick="reset"/>
+
+</LinearLayout>
+
+</LinearLayout>
